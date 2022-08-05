@@ -9,7 +9,7 @@ export class TecladoComponent implements OnInit {
   ngOnInit(): void {
   }
  
-  copyRight= 'Powered By Emiliano Morales';
+  copyRight= 'Designed by Emiliano Morales';
 
   sonarNota(numero: number):void{
     const audio = new Audio();
